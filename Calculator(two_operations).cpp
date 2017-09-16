@@ -21,10 +21,10 @@ int main()
 	cin>>operation;
 	cout<<endl;
 	
-	//addition module
+	//addition module for only two operands
 	if(operation==1)
 	{
-		//propmt for operands
+		//propmt for operands 
 		cout<<"Enter numbers to add.."<<endl;
 		
 		//taking input of operands
@@ -37,7 +37,7 @@ int main()
 		//printing result
 		cout<<"Addition of "<<a<<" and "<<b<<" is "<<sum<<endl;
 	}
-	//Multiplication module
+	//Multiplication module only for two operands
 	if(operation==2)
 	{
 		//propmt for operands
